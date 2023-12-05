@@ -368,6 +368,7 @@ textarea {
   border-radius: none;
   resize: vertical;
   height: 120px; }
+  
 
 label {
   display: inline-block;
@@ -3121,7 +3122,7 @@ span.location-box {
 /*          Discount CSS        */
 /* ======================================== */
 .discount-action .call-banner {
-  background: url(../images/bg/bg4.jpg) no-repeat;
+  background: url(../images/Evnt.jpg) no-repeat;
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -4562,7 +4563,7 @@ section.pricing-tab {
 
 @media (max-width: 767px) {
   .contact-main .contact-map .contact-form {
-    margin-top: 2rem; } }
+    margin-top: 20rem; } }
 /* ========================================= */
 /*          Gallery CSS        */
 /* ======================================== */
@@ -5466,7 +5467,7 @@ footer.footermain {
       color: #777; }
     footer.footermain .footer-upper .footer-about li {
       line-height: 1.8; }
-      
+ 
 @media (max-width: 1100px) and (min-width: 1024px) {
   footer .footer-listing-main .footer-listing {
     margin: 0 5px; } }
