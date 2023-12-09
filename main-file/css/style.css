@@ -593,6 +593,7 @@ iframe {
     margin-bottom: 0;
     color: #fff; }
     .breadcrumb li a, .breadcrumb li.active a {
+      font-size: x-large;
       color: #0791be; }
   .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
     content: '|';
