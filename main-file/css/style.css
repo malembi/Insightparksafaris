@@ -63,13 +63,13 @@ h5 {
 
 h6 {
   font-size: 14px; }
-
 @media (max-width: 991px) {
   h2 {
     font-size: 28px; } }
 @media (max-width: 735px) {
   h2 {
     font-size: 21px; }
+    
 
   h3 {
     font-size: 18px; } }
@@ -548,7 +548,8 @@ iframe {
   .pagination li a {
     height: 30px;
     width: 30px;
-    line-height: 28px; } }
+    line-height: 28px; }
+   }
 @media (max-width: 359px) {
   .pagination li a {
     height: 28px;
@@ -561,6 +562,7 @@ iframe {
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
+
   .breadcrumb-main .breadcrumb-outer {
     background: transparent;
     position: relative;
@@ -720,6 +722,7 @@ button {
 input#submit {
   border: none; }
 
+
 input#submit:hover {
   opacity: 0.8;
   background: #162241 !important;
@@ -777,6 +780,7 @@ input#submit:hover {
       width: auto;
      height: 100px;
     }
+    
 
 /* End Preloader */
 #back-to-top {
@@ -1370,12 +1374,14 @@ input#submit:hover {
   background: transparent;
   margin: 0; }
 
+
 .navbar.navbar-default {
   transition: none; }
 
 header #navbar {
   width: 100%;
   background: #f49b00; }
+ 
 
 .navbar-default a.navbar-brand {
   font-size: 24px;
@@ -2297,6 +2303,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 @media (max-width: 767px) {
   .banner .slider .swiper-container .swiper-slide .slide-inner::before {
     display: none; }
+    
   .banner .slider .swiper-container .swiper-slide .slide-inner .swiper-content, .banner .slider .swiper-container .swiper-slide .slide-inner .swiper-content1, .banner .slider .swiper-container .swiper-slide .slide-inner .swiper-content2 {
     width: 90% !important;
     left: 0;
@@ -2342,7 +2349,9 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   .banner .video-slider .swiper-content {
     display: none; }
   .banner .banner-main .banner-content > h1 {
-    font-size: 30px; } }
+    font-size: 30px; } 
+
+  }
 #particles-js {
   width: 100%;
   height: 100%;
@@ -3115,6 +3124,7 @@ span.location-box {
     opacity: 0;
     transition: all ease-in-out 0.5s; }
 
+
 @media (max-width: 767px) {
   .top-destination .col-lg-4, .top-destination .col-lg-3 {
     padding: 0 15px !important;
@@ -3568,6 +3578,7 @@ section.about-detail {
   .about-us .form-content {
     position: relative;
     top: -2rem; }
+    
     .about-us .form-content h3.form-title {
       top: 0; }
   .about-us .about-image-box1 .about-image {
