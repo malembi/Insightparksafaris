@@ -338,7 +338,7 @@
      });
 
 
-     $("#contactform").validate({      
+     $("#").validate({      
       submitHandler: function() {
         
         $.ajax({
