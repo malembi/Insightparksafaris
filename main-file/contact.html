@@ -307,7 +307,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div id="contact-form1" class="contact-form">
+                        <div id="contact-form" class="contact-form">
                             <h3 class="">Keep in Touch</h3>
                             <p class="mb-4">Our Contact Us section is your direct gateway to connect with us effortlessly. Whether you have inquiries, feedback, or require assistance, we welcome you to reach out through the provided channels.</p>
                             
@@ -315,22 +315,24 @@
 
                             <form method="post" action="https://formspree.io/f/mwkgeqvp" name="contactform" id="contactform">
                                 <div class="form-group">
-                                    <input type="text" name="first_name" class="form-control" id="fname" placeholder="First Name">
+                                    <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="last_name" class="form-control" id="lname" placeholder="Last Name">
+                                    <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name">
                                 </div>
                                 <div class="form-group">
                                     <input type="email" name="email"  class="form-control" id="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" id="phnumber" placeholder="Phone">
+                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone">
                                 </div>
-                                <div class="textarea">
-                                    <textarea name="comments" placeholder="Enter a message"></textarea>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message" placeholder="Enter a message"></textarea>
                                 </div>
                                 <div class="comment-btn text-right mt-1">
-                                    <input type="submit" class="nir-btn" id="submit" value="Send Message">
+                                    <button id="submit" type="submit" class="btn btn-primary">
+                                        GET IN TOUCH
+                                    </button>
                                 </div>
                             </form>
                         </div>
